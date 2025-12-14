@@ -126,7 +126,7 @@ export const PlansPage: React.FC<PlansPageProps> = ({ onBack, onGetQuote, onCont
 
               {/* Card Header */}
               <div className="flex flex-col items-center text-center mb-6">
-                <div className="w-15 h-15 bg-gray-50 rounded-2xl flex items-center justify-center mb-4 border b p-0.5">
+                <div className="w-5 h-5 bg-gray-50 rounded-2xl flex items-center justify-center mb-4 border b p-0.5">
                   <img src={plan.image} alt={plan.type} className="w-full h-full object-contain " />
                 </div>
                 <h3 className="text-xl font-bold text-black-rich mb-1">{plan.type}</h3>
