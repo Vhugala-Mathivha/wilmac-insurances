@@ -35,7 +35,7 @@ function App() {
   const [toast, setToast] = useState<{message: string, type: 'success' | 'error' | 'info'} | null>(null);
 
   // Constants for Images
-  const LOGO_URL = "/images/wilmac-logo.png"; // Placeholder brand mark
+  const LOGO_URL = "images/wilmac-logo.png"; // Placeholder brand mark
 
   useEffect(() => {
     // Scroll listener
@@ -108,28 +108,28 @@ function App() {
       title: "Auto Insurance",
       description: "Comprehensive coverage for your vehicles. Drive with confidence knowing Wilmac is your copilot.",
       bgImage: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=800",
-      iconUrl: "/images/car-logo.png",
+      iconUrl: "images/car-logo.png",
     },
     {
       type: InsuranceType.HOME,
       title: "Home Insurance",
       description: "Protect your sanctuary. We cover everything from structural damage to personal property.",
       bgImage: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800",
-      iconUrl: "/images/house-logo.png",
+      iconUrl: "images/house-logo.png",
     },
     {
       type: InsuranceType.LIFE,
       title: "Life Insurance",
       description: "Secure your family's future. Flexible term and whole life plans tailored to your needs.",
       bgImage: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800",
-      iconUrl: "/images/life-logo.png",
+      iconUrl: "images/life-logo.png",
     },
     {
       type: InsuranceType.BUSINESS,
       title: "Business Insurance",
       description: "Safeguard your enterprise. Liability, property, and workers' compensation solutions.",
       bgImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
-      iconUrl: "/images/business-logo.png",
+      iconUrl: "images/business-logo.png",
     }
   ];
 
