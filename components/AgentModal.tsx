@@ -20,7 +20,7 @@ export const AgentModal: React.FC<AgentModalProps> = ({ isOpen, onClose }) => {
         {/* Image Section */}
         <div className="w-full md:w-5/12 h-72 md:h-auto relative">
           <img 
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
+            src="images/Gemini_Generated_Image_ihtg7gihtg7gihtg.png" 
             alt="Vhugala Mathivha" 
             className="w-full h-full object-cover"
           />
