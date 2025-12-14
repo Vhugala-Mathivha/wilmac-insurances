@@ -423,7 +423,7 @@ function App() {
                 <img src={LOGO_URL} alt="Wilmac Logo" className="h-8 w-auto" />
               </div>
               <p className="text-gray-500 mb-6">
-                Providing peace of mind through reliable, comprehensive insurance solutions since 1985.
+                Providing peace of mind through reliable, comprehensive insurance solutions since 2025.
               </p>
               <div className="flex space-x-4">
                 {/* Social icons placeholders */}
@@ -459,9 +459,9 @@ function App() {
             <div>
               <h4 className="font-bold text-black-rich mb-6">Contact</h4>
               <ul className="space-y-4 text-gray-500">
-                <li>123 Olive Grove Blvd,<br />Suite 100, Seattle, WA</li>
-                <li>hello@wilmacins.com</li>
-                <li>(800) 555-0123</li>
+                <li>Pretoria, Gauteng, South Africa</li>
+                <li>vhugi@wilmacins.com</li>
+                <li>(012) 555-0123</li>
                 <li>Support Hours: 24/7</li>
               </ul>
             </div>
