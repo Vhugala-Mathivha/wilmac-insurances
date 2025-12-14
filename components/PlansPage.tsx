@@ -12,7 +12,7 @@ export const PlansPage: React.FC<PlansPageProps> = ({ onBack, onGetQuote, onCont
   const plans = [
     {
       type: 'Auto Insurance',
-      image: "https://img.icons8.com/fluency/96/car.png",
+      image: "images/car-logo.png",
       tagline: "Drive with confidence.",
       description: 'Comprehensive protection for you and your vehicle on the road.',
       features: [
@@ -27,7 +27,7 @@ export const PlansPage: React.FC<PlansPageProps> = ({ onBack, onGetQuote, onCont
     },
     {
       type: 'Home Insurance',
-      image: "https://img.icons8.com/fluency/96/home.png",
+      image: "images/house-logo.png",
       tagline: "Protect your sanctuary.",
       description: 'Safeguard your biggest investment against the unexpected.',
       features: [
@@ -42,7 +42,7 @@ export const PlansPage: React.FC<PlansPageProps> = ({ onBack, onGetQuote, onCont
     },
     {
       type: 'Life Insurance',
-      image: "https://img.icons8.com/fluency/96/family.png", // Changed to generic family icon for better fit
+      image: "images/life-logo.png", // Changed to generic family icon for better fit
       tagline: "Secure their future.",
       description: 'Provide financial security for your loved ones when it matters most.',
       features: [
@@ -57,7 +57,7 @@ export const PlansPage: React.FC<PlansPageProps> = ({ onBack, onGetQuote, onCont
     },
     {
       type: 'Business Insurance',
-      image: "https://img.icons8.com/fluency/96/briefcase.png",
+      image: "images/business-logo.png",
       tagline: "Risk management for pros.",
       description: 'Tailored solutions to protect your business assets and employees.',
       features: [
